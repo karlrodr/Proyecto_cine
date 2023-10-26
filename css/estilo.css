@@ -1,6 +1,5 @@
 body {
   padding-top: 70px;
-  margin: 20px;
 }
 
 .content {
@@ -14,7 +13,6 @@ h1, h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #1f023a;
 }
-
 
 .navbar {
   background-color: #1f023a;
