@@ -1,0 +1,172 @@
+.navbar {
+    background-color: #181830; /* Cambia el color de la barra*/
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Cambia el color del texto a blanco */
+}
+.carousel-inner{
+    width: 1500px;
+    height: 800px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181830; /* Cambia el color del pie de pagina*/
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 10px;
+    color: white !important;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+/* Estilos para el botón de WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición vertical según tu preferencia */
+    right: 20px; /* Ajusta la posición horizontal según tu preferencia */
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    width: 60px; /* Ajusta el tamaño de la imagen del botón */
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*slider pagina principal*/
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow {
+    position: fixed;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* Añadir z-index para asegurar que estén por encima de las imágenes */
+  }
+
+  .arrow.left {
+    left: 0;
+  }
+
+  .arrow.right {
+    right: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 900px;
+    background-color: rgb(226, 43, 67);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección "Buscar Películas" */
+#buscar form {
+    margin-bottom: 20px;
+}
+
+#buscar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#buscar button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para la lista de películas */
+.peliculas-lista {
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pelicula-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.pelicula-item h3 {
+    margin-bottom: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+.pelicula-item p {
+    margin: auto;
+    font-size: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+ 

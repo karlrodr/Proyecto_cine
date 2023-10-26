@@ -1,0 +1,97 @@
+body {
+  padding-top: 70px; 
+}
+
+.content {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #181830;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-brand img {
+  pointer-events: none;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.4);
+  transition: transform 0.3s;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.owl-carousel .owl-item {
+  opacity: .4;
+  transition: all .5s ease;
+  transform: scale(0.8);
+}
+
+.owl-carousel .owl-item.center {
+  opacity: 1;
+  transform: scale(1);
+}
+.owl-carousel .owl-item img {
+  width: 300px; 
+  height: 350px; 
+  object-fit: cover; 
+}
+
+.p-3 {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(48, 25, 61);
+}
+.zoom-on-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #181830;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+  color: white !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.social-icons i {
+  font-size: 30px;
+  color: white; 
+}
