@@ -15,8 +15,28 @@ body{
 }
 .navbar {
     background: transparent;
-
 }
+.navbar-nav .nav-link:hover {
+    transform: scale(1.4);
+    transition: transform 0.3s;
+  }
+  
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-float img {
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold; /* Aplica negritas al texto */
+  }
 main{
     width: 100%;
     padding: 20px;
@@ -139,4 +159,21 @@ main{
     .contenedor__login-register form{
         position: relative;
     }
+}
+.navbar-nav .nav-link:hover {
+  transform: scale(1.4);
+  transition: transform 0.3s;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }

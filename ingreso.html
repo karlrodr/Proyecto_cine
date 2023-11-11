@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +7,11 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />    
-    <link rel="stylesheet" href="./css/diana.css">
-    <title>Ingreso</title>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/cuenta.css">
 
+    <title>Tu cuenta</title>
+</head>
 <body>
     <div class="whatsapp-float">
         <a href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
@@ -22,7 +21,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand">
-                <img src="img/Logo1.png" alt="Home" width="180px" height="70px">
+                <img src="img/Logo1.png" href="Index.html" alt="Home" width="180px" height="70px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,65 +30,62 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="Index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="cartelera.html">Cartelera</a>
+                        <a class="nav-link active" aria-current="page" href="cartelera.html">Cartelera</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="comida.html">Comida</a>
+                        <a class="nav-link active" aria-current="page" href="comida.html">Comida</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="noticias.html">Noticias</a>
+                        <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="ingreso.html">ingreso</a>
+                        <a class="nav-link active" aria-current="page" href="Ingreso.html">ingreso</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="form-register">
-        <h4>Formulario Registro</h4>    
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellidos">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="nombres" id="nombres" placeholder="Ingrese su Contraseña">
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">
-        <p><a href="cuenta.html">¿Ya tengo cuenta?</a></p>
-       </section>
-       <br>
-
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>SOBRE CINEMAS PREMIUM</h3>
-                <p>Cinemas Premium, es una empresa innovadora de cine que cuenta con diferentes sedes en Medellin y el
-                    Valle de Aburra.</p>
-                <p>&copy; 2023 Cinemas Premium. Todos los derechos reservados.</p>
-            </div>
-            <div class="footer-section">
-                <h3>CONTÁCTANOS</h3>
-                <p>Correo electrónico: cinemaspremium@gmail.com</p>
-                <p>Teléfono: 57 3023459845 </p>
-                <p>Dirección: Dg. 50A #38 20 Piso 5</p>
-            </div>
-            <div class="footer-section">
-                <h3>Redes Sociales</h3>
-                <p>Sigunos y conoce mas información de nosotros en nuestras redes sociales.</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.tiktok.com/es/" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <main>
+        <div class="contendor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿ Ya Tienes Cuenta ? </h3>
+                    <p>Inicia sesion para entrar en la pagina</p>
+                    <button id="btn__iniciar-sesion">Iniciar Sesion</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿ Aun no tienes una cuenta ? </h3>
+                    <p>Registrate para iniciar sesion</p>
+                    <button id="btn__registrarse">Registrarse</button>
                 </div>
             </div>
-        </div>
-</footer>
+            <div class="contenedor__login-register">
+                <form action="" class="formulario__login">
+                    <h2>Iniciar Sesion</h2>
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Entrar</button>
+                </form>
+                <form action="" class="formulario__register">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre Completo">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="mail" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Registrar</button>
+                </form>
+            </div>            
+        </div>    
+    </main>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -97,6 +93,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
     <script src="js/principal.js"></script>
+    <script src="js/ingreso.js"></script>
 </body>
 
 </html>
